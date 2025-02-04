@@ -10,19 +10,14 @@ function App() {
                 <Navbar />
                 <div style={styles.content}>
                     <Section
-                        id="home"
-                        title="Home"
-                        content="Welcome to the Home section!"
-                    />
-                    <Section
                         id="about"
-                        title="About"
-                        content="Here is the About section."
+                        title="About Me"
+                        content="This is about me"
                     />
                     <Section
-                        id="contact"
-                        title="Contact"
-                        content="This is the Contact section."
+                        id="resources"
+                        title="Resources"
+                        content="These are resources"
                     />
                 </div>
             </div>

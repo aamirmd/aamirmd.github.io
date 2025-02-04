@@ -6,18 +6,13 @@ function Navbar() {
         <div style={styles.navbar}>
             <ul style={styles.navList}>
                 <li style={styles.navItem}>
-                    <HashLink to="#home" style={styles.navLink}>
-                        Home
-                    </HashLink>
-                </li>
-                <li style={styles.navItem}>
                     <HashLink to="#about" style={styles.navLink}>
-                        About
+                        About Me
                     </HashLink>
                 </li>
                 <li style={styles.navItem}>
-                    <HashLink to="#contact" style={styles.navLink}>
-                        Contact
+                    <HashLink to="#resources" style={styles.navLink}>
+                        Resources
                     </HashLink>
                 </li>
             </ul>
