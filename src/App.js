@@ -9,16 +9,8 @@ function App() {
             <div style={styles.container}>
                 <Navbar />
                 <div style={styles.content}>
-                    <Section
-                        id="about"
-                        title="About Me"
-                        content="This is about me"
-                    />
-                    <Section
-                        id="resources"
-                        title="Resources"
-                        content="These are resources"
-                    />
+                    <Section id="about" title="About Me" />
+                    <Section id="resources" title="Resources" />
                 </div>
             </div>
         </Router>
@@ -28,10 +20,12 @@ function App() {
 const styles = {
     container: {
         display: "flex",
+        "flex-direction": "column",
+        gap: "20 px" /* Adds space between sections */,
     },
     content: {
         marginLeft: "220px", // account for the navbar width
-        padding: "20px",
+        // padding: "20px",
         flex: 1,
     },
 };
