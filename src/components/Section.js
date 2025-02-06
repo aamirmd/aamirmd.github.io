@@ -92,7 +92,18 @@ const data = {
     ),
     resources: (
         <>
-            <p>This is a paragraph about resources.</p>
+            <ul>
+                <li>
+                    <a
+                        href="https://github.com/aamirmd/tutorials/blob/main/numpy_pandas_tutorial.ipynb"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Numpy and Pandas tutorial
+                    </a>{" "}
+                    (Work in progress)
+                </li>
+            </ul>
         </>
     ),
 };
@@ -110,13 +121,13 @@ const styles = {
     about: {
         padding: "20px 20px 200px 20px",
         margin: "20px 20px 150px 20px",
-        borderBottom: "2px solid #ddd",
+        // borderBottom: "2px solid #ddd",
         height: "100vh", // Each section takes full viewport height
     },
     resources: {
-        padding: "20px 20px 20px 20px",
-        margin: "150px 20px 150px 20px",
-        borderBottom: "2px solid #ddd",
+        padding: "20px 20px 0px 20px",
+        margin: "150px 20px 20px 20px",
+        borderTop: "2px solid #ddd",
         height: "100vh", // Each section takes full viewport height
     },
 };
