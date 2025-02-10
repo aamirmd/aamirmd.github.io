@@ -95,11 +95,11 @@ const data = {
             <ul>
                 <li>
                     <a
-                        href="https://github.com/aamirmd/tutorials/blob/main/numpy_pandas_tutorial.ipynb"
+                        href="https://github.com/aamirmd/tutorials/blob/main/numpy_tutorial.ipynb"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        Numpy and Pandas tutorial
+                        Numpy tutorial
                     </a>{" "}
                     (Work in progress)
                 </li>

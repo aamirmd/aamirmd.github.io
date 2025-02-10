@@ -1,5 +1,6 @@
 import React from "react";
 import { HashLink } from "react-router-hash-link";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 function Navbar() {
     return (
@@ -14,6 +15,36 @@ function Navbar() {
                     <HashLink to="#resources" style={styles.navLink}>
                         Resources
                     </HashLink>
+                </li>
+                <li>
+                    <div className="social-links">
+                        <span padding="30px" margin="30px">
+                            <a
+                                href="https://www.linkedin.com/in/mohamed-aamir"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="linkedin"
+                            >
+                                <FaLinkedin
+                                    size={50}
+                                    style={{ color: "white" }}
+                                />
+                            </a>
+                        </span>
+                        <span padding="30px" margin="30px">
+                            <a
+                                href="https://github.com/aamirmd"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="github"
+                            >
+                                <FaGithub
+                                    size={50}
+                                    style={{ color: "white" }}
+                                />
+                            </a>
+                        </span>
+                    </div>
                 </li>
             </ul>
         </div>
