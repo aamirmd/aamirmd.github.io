@@ -32,9 +32,9 @@ const data = {
                 Prediction Dashboard, where my teammate and I are building a
                 machine learning model to predict fantasy football performance
                 and designing an optimization algorithm for selecting the best
-                roster. Additionally, I am working on an NCAA Football Program
-                Valuation Model, which quantifies financial metrics for college
-                football programs.
+                change to an existing roster. Additionally, I am working on an
+                NCAA Football Program Valuation Model, which quantifies
+                financial metrics for college football programs.
             </p>
             <p>
                 <h4>Technical Skills & Tools</h4>
@@ -100,8 +100,17 @@ const data = {
                         rel="noopener noreferrer"
                     >
                         Numpy tutorial
+                    </a>
+                </li>
+                <li>
+                    <a
+                        href="https://github.com/aamirmd/tutorials/blob/main/pandas_tutorial.ipynb"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Pandas tutorial
                     </a>{" "}
-                    (Work in progress)
+                    (Work in-progress)
                 </li>
             </ul>
         </>
